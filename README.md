@@ -6,7 +6,7 @@ The image is build with Haproxy2.1.0 and lua 5.3.4 and mongo-driver, it's purpos
 Path cfg is the demo of haproxy.cfg and lua file which connect to the mongodb replicaset.
 You can use the docker command like follow:
 
-docker run -d -p 37017:37017 -v /cfg:/etc/haproxy/conf pengtaoman/ubuntu-haproxy-mongo:0.0.1
+docker run -d -p 37017:37017 -v /cfg:/etc/haproxy/conf pengtaoman/haproxy2.1.0-lua-mongodriver:0.0.1
 
 and connect mongodb replicaset with:
 
