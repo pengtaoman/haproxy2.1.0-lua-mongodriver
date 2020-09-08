@@ -15,3 +15,5 @@ docker run -it --rm mongo:4.0.14 mongo --host 172.17.0.2 --port 37017
 You can view haproxy logs with:
 
 docker logs containerId
+
+that all!
